@@ -145,3 +145,4 @@ C:\Users\n01429204\Documents\GitHub\WFBOOM\WFBOOM\obj\Debug\netcoreapp3.1\Razor\
 C:\Users\n01429204\Documents\GitHub\WFBOOM\WFBOOM\obj\Debug\netcoreapp3.1\Razor\Views\Home\register.cshtml.g.cs
 C:\Users\n01429204\Documents\GitHub\WFBOOM\WFBOOM\obj\Debug\netcoreapp3.1\WFBOOM.csproj.CoreCompileInputs.cache
 C:\Users\n01429204\Documents\GitHub\WFBOOM\WFBOOM\obj\Debug\netcoreapp3.1\WFBOOM.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\n01429204\Documents\GitHub\WFBOOM\WFBOOM\obj\Debug\netcoreapp3.1\Razor\Views\Shared\LoggedIn.cshtml.g.cs
