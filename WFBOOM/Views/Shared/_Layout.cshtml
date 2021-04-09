@@ -1,16 +1,11 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Site made with Mobirise Website Builder v5.1.4, https://mobirise.com -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="generator" content="Mobirise v5.1.4, mobirise.com">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-    <link rel="shortcut icon" href="~/assets/images/mbr-96x115.png" type="image/x-icon">
-    <meta name="description" content="">
-
-
-    <title>WFBOOM</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - WFBOOM</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
     <link rel="stylesheet" href="~/assets/web/assets/mobirise-icons2/mobirise2.css">
     <link rel="stylesheet" href="~/assets/tether/tether.min.css">
     <link rel="stylesheet" href="~/assets/bootstrap/css/bootstrap.min.css">
@@ -22,80 +17,104 @@
     <link rel="stylesheet" href="~/assets/theme/css/style.css">
     <link rel="preload" as="style" href="~/assets/mobirise/css/mbr-additional.css">
     <link rel="stylesheet" href="~/assets/mobirise/css/mbr-additional.css" type="text/css">
-
-
-
-
 </head>
 <body>
+    <!-- <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">WF Boom</a>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <partial name="_LoginPartial.cshtml" />
+                </div>
+            </div>
+            <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Policies">Policies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="FAQ">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+        -->
     <header>
         <section class="menu menu2 cid-sqNSNyRQTp" once="menu" id="menu2-3">
-
+            
             <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
-                <div class="container-fluid">
-                    <!-- <div class="navbar-brand">
-        <span class="navbar-logo">
+                <!--
+        <div class="container-fluid">
+            <div class="navbar-brand">
+                <span class="navbar-logo">
 
-                <img src="~/assets/images/mbr-96x115.png" alt="Fire Works" style="height: 3rem;">
+                    <img src="~/assets/images/mbr-96x115.png" alt="Fire Works" style="height: 3rem;">
 
-        </span>
-        <span class="navbar-caption-wrap">
-            <a class="navbar-caption text-black display-7" href="#">Fire Works Store</a>
-        </span>
-    </div> -->
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <div class="hamburger">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul style="float: left;" class="navbar-nav nav-dropdown" data-app-modern-menu="true">
-                            <li class="nav-item">
-                                <a asp-action="Index" style="color:#d40406 ;" class="nav-link link display-4">
-                                    <strong>Home</strong>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link link text-black display-4" href="#">
-                                    Location
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link link text-black display-4" href="#">Our Products</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link link text-black display-4" href="#">Safety</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link link text-black display-4" href="#">Specials</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link link text-black display-4" href="#">Price Lists</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link link text-black display-4" href="#">Purchase Form</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link link text-black display-4" href="#">Contact</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link link text-black display-4" href="#">Pyro Friends</a>
-                            </li>
-                        </ul>
-
-                        <div class="navbar-buttons mbr-section-btn">
-                            <a asp-action="Login" class="btn btn-secondary display-4">Log In</a>
-                            <a asp-action="Register" class="btn btn-warning display-4">Register</a>
-                        </div>
-                        
+                </span>
+                <span class="navbar-caption-wrap">
+                    <a class="navbar-caption text-black display-7" href="#">Fire Works Store</a>
+                </span>
+            </div>
+            -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
                     </div>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav nav-dropdown" data-app-modern-menu="true">
+                        <li class="nav-item">
+                            <a asp-area="" asp-controller="Home" asp-action="Index" style="color:#d40406 ;" class="nav-link link display-4">
+                                <strong>Home</strong>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link text-black display-4" href="#">
+                                Location
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link text-black display-4" href="#">Our Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link text-black display-4" href="#">Safety</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link text-black display-4" href="#">Specials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link text-black display-4" href="#">Price Lists</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link text-black display-4" href="#">Purchase Form</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link text-black display-4" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link text-black display-4" href="#">Pyro Friends</a>
+                        </li>
+                    </ul>
+
+                    <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                        <partial name="_LoginPartial.cshtml" />
+                    </div>
+
                 </div>
             </nav>
+            
+
         </section>
     </header>
+
+
 
     <div class="container">
         <main role="main" class="pb-3">
@@ -105,13 +124,12 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2021 - WFBOOM - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2021 - WFBOOM - <a asp-area="" asp-controller="Home" asp-action="FAQ">FAQ</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @RenderSection("Scripts", required: false)
-
 </body>
 </html>

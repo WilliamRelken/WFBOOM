@@ -23,17 +23,12 @@ namespace WFBOOM.Controllers
             return View();
         }
 
-        public IActionResult Login()
+        public IActionResult Policies()
         {
             return View();
         }
 
-        public IActionResult Register()
-        {
-            return View();
-        }
-
-        public IActionResult Privacy()
+        public IActionResult FAQ()
         {
             return View();
         }
